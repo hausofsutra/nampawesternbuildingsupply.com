@@ -8,9 +8,10 @@
 :root {
   --brown:    #5C3A1E;
   --brown-dk: #3E2712;
-  --gold:     #B8860B;
-  --gold-lt:  #D4A017;
+  --gold:     #C4A882;
+  --gold-lt:  #D4B896;
   --cream:    #F5F0E8;
+  --red:      #8B2635;
   --gray:     #4A4A4A;
   --gray-lt:  #F0EEEA;
   --white:    #FFFFFF;
@@ -172,7 +173,7 @@ img { max-width: 100%; display: block; }
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url('https://images.pexels.com/photos/28453365/pexels-photo-28453365.jpeg?auto=compress&cs=tinysrgb&w=1400') center/cover no-repeat;
+  background: url('https://images.unsplash.com/photo-1638847868668-a05a2f69622f?w=1400&q=80') center/cover no-repeat;
   padding-top: 70px;
 }
 .hero-overlay {
@@ -216,7 +217,7 @@ img { max-width: 100%; display: block; }
 .card {
   background: var(--white);
   border: 1px solid #e0d8cc;
-  border-top: 4px solid var(--gold);
+  border-top: 4px solid var(--red);
   border-radius: 6px;
   padding: 32px 24px;
   transition: box-shadow 0.2s, transform 0.2s;
@@ -228,7 +229,7 @@ img { max-width: 100%; display: block; }
 .card-icon {
   font-size: 2rem;
   margin-bottom: 16px;
-  color: #b8860b;
+  color: var(--red);
 }
 .card h3 {
   font-family: var(--font-heading);
@@ -250,7 +251,7 @@ img { max-width: 100%; display: block; }
 .product-item {
   flex: 0 1 320px;
   background: var(--white);
-  border-left: 4px solid var(--gold);
+  border-left: 4px solid var(--red);
   padding: 22px 20px;
   border-radius: 4px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.06);
