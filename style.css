@@ -172,7 +172,7 @@ img { max-width: 100%; display: block; }
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1400&q=80') center/cover no-repeat;
+  background: url('https://images.pexels.com/photos/28453365/pexels-photo-28453365.jpeg?auto=compress&cs=tinysrgb&w=1400') center/cover no-repeat;
   padding-top: 70px;
 }
 .hero-overlay {
@@ -242,11 +242,13 @@ img { max-width: 100%; display: block; }
 
 /* ===== PRODUCTS ===== */
 .product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 24px;
 }
 .product-item {
+  flex: 0 1 320px;
   background: var(--white);
   border-left: 4px solid var(--gold);
   padding: 22px 20px;
